@@ -1,0 +1,72 @@
+.todo-list-item-container{
+    height: 45px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #5a719c;
+    justify-content: space-between;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    
+}
+.update-input-box{
+    width: 150px; 
+    flex-grow: 1;
+    max-width: 400px;
+    height: 38px;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    color: #495057;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    padding-left: 10px;
+    margin-right:10px;
+    background-color: #ffffff;
+}
+.todo-text{
+    width: 150px; 
+    height: 40px;
+    padding-top:6px;
+    flex-grow: 1;
+    max-width: 400px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+.buttons-container{
+    display: flex;
+    align-items: center;
+}
+.save-button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: transparent;
+}
+.edit-button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.remove-button{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
